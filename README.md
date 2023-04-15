@@ -2,7 +2,9 @@
 
 This is an Administrator Panel
 
-It is based on vue3 and quasar2
+Thisi admin ui is based on vue3 and quasar2
+
+![home](screenshot/s1.png)
 
 ## Install the dependencies
 ```bash
