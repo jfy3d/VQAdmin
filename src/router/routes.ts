@@ -3,6 +3,7 @@ import { RouteRecordRaw } from 'vue-router';
 const routes: RouteRecordRaw[] = [
   {
     path: '/',
+    redirect: '/index',
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '/index', name:'index', component: () => import('pages/IndexPage.vue') },
